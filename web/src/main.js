@@ -1,6 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 import Cloudbase from "@cloudbase/vue-provider";
+import router from "./router"
+
+
 
 // 注意更新此处的TCB_ENV_ID为你自己的环境ID
 window._tcbEnv = window._tcbEnv || {TCB_ENV_ID:"test-2gobgjar8fd761bb"};
@@ -16,5 +19,6 @@ Vue.use(Cloudbase, {
 });
 
 new Vue({
+  router,
   render: h => h(App)
 }).$mount("#app");

@@ -1,0 +1,13 @@
+.cookMain {
+  text-align: center;
+  margin: 0 auto;
+}
+.cookMain .cookMainHead {
+  font-size: 90px;
+}
+.cookMain .cookMainHead .cookMainHeadth {
+  margin-left: 60px;
+}
+.cookMain .cookMainList {
+  font-size: 30px;
+}
